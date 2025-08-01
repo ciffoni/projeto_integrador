@@ -73,11 +73,6 @@ namespace projeto
                     }
                
                 }
-
-
-
-
-
             }catch (Exception ex)
             {
                 MessageBox.Show("Erro:"+ ex.Message);
