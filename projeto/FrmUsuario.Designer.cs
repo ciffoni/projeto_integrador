@@ -43,6 +43,8 @@
             btnExcluir = new Button();
             btnPesquisar = new Button();
             dataGridView1 = new DataGridView();
+            label6 = new Label();
+            chkAtivo = new CheckBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -127,6 +129,7 @@
             cboCargo.Name = "cboCargo";
             cboCargo.Size = new Size(151, 28);
             cboCargo.TabIndex = 9;
+            cboCargo.SelectedIndexChanged += cboCargo_SelectedIndexChanged;
             // 
             // btnCadastrar
             // 
@@ -176,12 +179,37 @@
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(634, 188);
             dataGridView1.TabIndex = 14;
+            dataGridView1.CellClick += dataGridView1_CellClick;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(62, 268);
+            label6.Name = "label6";
+            label6.Size = new Size(44, 20);
+            label6.TabIndex = 15;
+            label6.Text = "Ativo";
+            label6.Visible = false;
+            // 
+            // chkAtivo
+            // 
+            chkAtivo.AutoSize = true;
+            chkAtivo.Location = new Point(154, 272);
+            chkAtivo.Name = "chkAtivo";
+            chkAtivo.Size = new Size(64, 24);
+            chkAtivo.TabIndex = 16;
+            chkAtivo.Text = "ativo";
+            chkAtivo.UseVisualStyleBackColor = true;
+            chkAtivo.Visible = false;
             // 
             // FrmUsuario
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(698, 604);
+            Controls.Add(chkAtivo);
+            Controls.Add(label6);
             Controls.Add(dataGridView1);
             Controls.Add(btnPesquisar);
             Controls.Add(btnExcluir);
@@ -222,5 +250,7 @@
         private Button btnExcluir;
         private Button btnPesquisar;
         private DataGridView dataGridView1;
+        private Label label6;
+        private CheckBox chkAtivo;
     }
 }
