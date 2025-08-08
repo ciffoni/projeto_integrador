@@ -52,7 +52,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { arquivoToolStripMenuItem, cadastrarToolStripMenuItem, pedidoToolStripMenuItem, rElatórioToolStripMenuItem, ajudaToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 28);
+            menuStrip1.Size = new Size(1188, 28);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -81,6 +81,7 @@
             produtoToolStripMenuItem.Name = "produtoToolStripMenuItem";
             produtoToolStripMenuItem.Size = new Size(224, 26);
             produtoToolStripMenuItem.Text = "Produto";
+            produtoToolStripMenuItem.Click += produtoToolStripMenuItem_Click;
             // 
             // pedidoToolStripMenuItem
             // 
@@ -88,11 +89,12 @@
             pedidoToolStripMenuItem.Name = "pedidoToolStripMenuItem";
             pedidoToolStripMenuItem.Size = new Size(69, 24);
             pedidoToolStripMenuItem.Text = "Pedido";
+            pedidoToolStripMenuItem.Click += pedidoToolStripMenuItem_Click;
             // 
             // produtoToolStripMenuItem1
             // 
             produtoToolStripMenuItem1.Name = "produtoToolStripMenuItem1";
-            produtoToolStripMenuItem1.Size = new Size(146, 26);
+            produtoToolStripMenuItem1.Size = new Size(224, 26);
             produtoToolStripMenuItem1.Text = "produto";
             // 
             // rElatórioToolStripMenuItem
@@ -111,9 +113,9 @@
             // 
             statusStrip1.ImageScalingSize = new Size(20, 20);
             statusStrip1.Items.AddRange(new ToolStripItem[] { toolStripStatusLabel1, toolStripStatusLabel2 });
-            statusStrip1.Location = new Point(0, 424);
+            statusStrip1.Location = new Point(0, 588);
             statusStrip1.Name = "statusStrip1";
-            statusStrip1.Size = new Size(800, 26);
+            statusStrip1.Size = new Size(1188, 26);
             statusStrip1.TabIndex = 2;
             statusStrip1.Text = "statusStrip1";
             // 
@@ -133,7 +135,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1188, 614);
             Controls.Add(statusStrip1);
             Controls.Add(menuStrip1);
             IsMdiContainer = true;

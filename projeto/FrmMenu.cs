@@ -30,5 +30,20 @@ namespace projeto
             toolStripStatusLabel1.Text = SessaoUsuario.UsuarioLogador;
             toolStripStatusLabel2.Text = SessaoUsuario.Cargousuario.ToString();
         }
+
+        private void pedidoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void produtoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //instanciar o formulario produto
+            FrmProduto produto= new FrmProduto();
+            // disendo que é filho do menu
+            produto.MdiParent = this;
+            //mostra a janela
+            produto.Show();
+        }
     }
 }
