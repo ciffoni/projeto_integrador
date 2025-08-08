@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46F0C98A-0F7C-472B-9E0B-8DF3BED38101}|projeto.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\frmproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{46F0C98A-0F7C-472B-9E0B-8DF3BED38101}|projeto.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\frmproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F0C98A-0F7C-472B-9E0B-8DF3BED38101}|projeto.csproj|solutionrelative:frmproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46F0C98A-0F7C-472B-9E0B-8DF3BED38101}|projeto.csproj|c:\\users\\aluno\\documents\\github\\projeto_integrador\\projeto\\frmproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{46F0C98A-0F7C-472B-9E0B-8DF3BED38101}|projeto.csproj|solutionrelative:frmproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46F0C98A-0F7C-472B-9E0B-8DF3BED38101}|projeto.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F0C98A-0F7C-472B-9E0B-8DF3BED38101}|projeto.csproj|solutionrelative:frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46F0C98A-0F7C-472B-9E0B-8DF3BED38101}|projeto.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{46F0C98A-0F7C-472B-9E0B-8DF3BED38101}|projeto.csproj|solutionrelative:frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46F0C98A-0F7C-472B-9E0B-8DF3BED38101}|projeto.csproj|c:\\users\\aluno\\documents\\github\\projeto_integrador\\projeto\\classe\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F0C98A-0F7C-472B-9E0B-8DF3BED38101}|projeto.csproj|solutionrelative:classe\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46F0C98A-0F7C-472B-9E0B-8DF3BED38101}|projeto.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -15,24 +31,12 @@
       "RelativeMoniker": "D:0:0:{46F0C98A-0F7C-472B-9E0B-8DF3BED38101}|projeto.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46F0C98A-0F7C-472B-9E0B-8DF3BED38101}|projeto.csproj|c:\\users\\aluno\\documents\\github\\projeto_integrador\\projeto\\frmproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46F0C98A-0F7C-472B-9E0B-8DF3BED38101}|projeto.csproj|solutionrelative:frmproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{46F0C98A-0F7C-472B-9E0B-8DF3BED38101}|projeto.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46F0C98A-0F7C-472B-9E0B-8DF3BED38101}|projeto.csproj|solutionrelative:frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46F0C98A-0F7C-472B-9E0B-8DF3BED38101}|projeto.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46F0C98A-0F7C-472B-9E0B-8DF3BED38101}|projeto.csproj|solutionrelative:frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46F0C98A-0F7C-472B-9E0B-8DF3BED38101}|projeto.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46F0C98A-0F7C-472B-9E0B-8DF3BED38101}|projeto.csproj|solutionrelative:frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46F0C98A-0F7C-472B-9E0B-8DF3BED38101}|projeto.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{46F0C98A-0F7C-472B-9E0B-8DF3BED38101}|projeto.csproj|solutionrelative:frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46F0C98A-0F7C-472B-9E0B-8DF3BED38101}|projeto.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,20 +58,33 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "conexao.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\classe\\conexao.cs",
+              "RelativeDocumentMoniker": "classe\\conexao.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\classe\\conexao.cs",
+              "RelativeToolTip": "classe\\conexao.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAswBkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T14:06:19.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "FrmProduto.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\FrmProduto.cs",
               "RelativeDocumentMoniker": "FrmProduto.cs",
               "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\FrmProduto.cs",
               "RelativeToolTip": "FrmProduto.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAowCcAAABNAAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFUAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-08T11:42:21.523Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FrmProduto.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\FrmProduto.cs",
               "RelativeDocumentMoniker": "FrmProduto.cs",
@@ -79,32 +96,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmMenu.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\FrmMenu.cs",
-              "RelativeDocumentMoniker": "FrmMenu.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\FrmMenu.cs [Projeto]",
-              "RelativeToolTip": "FrmMenu.cs [Projeto]",
+              "DocumentIndex": 6,
+              "Title": "FrmLogin.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "FrmLogin.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\FrmLogin.cs [Projeto]",
+              "RelativeToolTip": "FrmLogin.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T14:14:20.337Z",
+              "WhenOpened": "2025-08-01T13:32:15.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmUsuario.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\FrmUsuario.cs",
+              "RelativeDocumentMoniker": "FrmUsuario.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\FrmUsuario.cs [Projeto]",
+              "RelativeToolTip": "FrmUsuario.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T12:09:18.255Z",
               "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FrmLogin.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\FrmLogin.Designer.cs",
-              "RelativeDocumentMoniker": "FrmLogin.Designer.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\FrmLogin.Designer.cs",
-              "RelativeToolTip": "FrmLogin.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "FrmUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\FrmUsuario.cs",
+              "RelativeDocumentMoniker": "FrmUsuario.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\FrmUsuario.cs",
+              "RelativeToolTip": "FrmUsuario.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAAD0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T11:30:10.194Z",
+              "WhenOpened": "2025-07-25T12:22:11.407Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "FrmMenu.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\FrmMenu.cs",
               "RelativeDocumentMoniker": "FrmMenu.cs",
@@ -112,36 +140,34 @@
               "RelativeToolTip": "FrmMenu.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAgwDAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T15:55:37.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T15:55:37.34Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmLogin.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\FrmLogin.cs",
-              "RelativeDocumentMoniker": "FrmLogin.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\FrmLogin.cs [Projeto]",
-              "RelativeToolTip": "FrmLogin.cs [Projeto]",
+              "DocumentIndex": 8,
+              "Title": "FrmLogin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\FrmLogin.Designer.cs",
+              "RelativeDocumentMoniker": "FrmLogin.Designer.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\FrmLogin.Designer.cs",
+              "RelativeToolTip": "FrmLogin.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T13:32:15.615Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2025-08-08T11:30:10.194Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FrmUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\FrmUsuario.cs",
-              "RelativeDocumentMoniker": "FrmUsuario.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\FrmUsuario.cs",
-              "RelativeToolTip": "FrmUsuario.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAgwCUAAAAPAAAA",
+              "DocumentIndex": 5,
+              "Title": "FrmMenu.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\FrmMenu.cs",
+              "RelativeDocumentMoniker": "FrmMenu.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\FrmMenu.cs [Projeto]",
+              "RelativeToolTip": "FrmMenu.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T12:22:11.407Z"
+              "WhenOpened": "2025-08-01T14:14:20.337Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "FrmLogin.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\FrmLogin.cs",
               "RelativeDocumentMoniker": "FrmLogin.cs",
@@ -149,23 +175,11 @@
               "RelativeToolTip": "FrmLogin.cs",
               "ViewState": "AQIAAD0AAAAAAAAAAAAkwFAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T13:34:35.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T13:34:35.113Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FrmUsuario.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\FrmUsuario.cs",
-              "RelativeDocumentMoniker": "FrmUsuario.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\FrmUsuario.cs [Projeto]",
-              "RelativeToolTip": "FrmUsuario.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T12:09:18.255Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_integrador\\projeto\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

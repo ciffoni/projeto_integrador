@@ -151,6 +151,7 @@
             cboTipo.Name = "cboTipo";
             cboTipo.Size = new Size(151, 28);
             cboTipo.TabIndex = 11;
+            cboTipo.SelectedIndexChanged += cboTipo_SelectedIndexChanged;
             // 
             // Foto
             // 
@@ -175,6 +176,7 @@
             btnCadastrar.TabIndex = 14;
             btnCadastrar.Text = "Cadastrar";
             btnCadastrar.UseVisualStyleBackColor = true;
+            btnCadastrar.Click += btnCadastrar_Click;
             // 
             // btnEditar
             // 
@@ -260,6 +262,7 @@
             Controls.Add(label1);
             Name = "FrmProduto";
             Text = "FrmProduto";
+            Load += FrmProduto_Load;
             ((System.ComponentModel.ISupportInitialize)Foto).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgvProduto).EndInit();
             ResumeLayout(false);
