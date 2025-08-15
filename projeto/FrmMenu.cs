@@ -39,10 +39,17 @@ namespace projeto
         private void produtoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //instanciar o formulario produto
-            FrmProduto produto= new FrmProduto();
+            FrmProduto produto = new FrmProduto();
             // disendo que é filho do menu
             produto.MdiParent = this;
             //mostra a janela
+            produto.Show();
+        }
+
+        private void produtoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FrmListarProduto produto= new FrmListarProduto();
+            produto.MdiParent = this;
             produto.Show();
         }
     }

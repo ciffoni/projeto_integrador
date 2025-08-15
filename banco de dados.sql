@@ -18,7 +18,8 @@ create table tipo(
 codigotipo int primary key auto_increment,
 descricao varchar(100)
 );
-
+insert into tipo(descricao) values ("administração");
+insert into tipo(descricao) values ("Vendedor");
 create table produto(
 
 codigoProduto int primary key auto_increment,

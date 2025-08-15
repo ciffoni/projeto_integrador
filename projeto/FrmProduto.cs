@@ -24,7 +24,17 @@ namespace projeto
 
         private void btnPesquisar_Click(object sender, EventArgs e)
         {
-
+            string sql;
+            if (string.IsNullOrEmpty(txtNome.Text))
+            {
+                sql = "select * from produto";
+            }
+            else
+            {
+                sql="select * from produto where nome like '%"+ txtNome.Text +"%'";
+            }
+            conexao conexao = new conexao();
+            dgvProduto.DataSource= conexao.obterDados(sql);
         }
 
         private void btnFoto_Click(object sender, EventArgs e)
@@ -55,7 +65,7 @@ namespace projeto
                     //copiando o arquivo para o destino
                     File.Copy(caminhocompletofotooriginal, caminhodestino, true);
                     //mostrando o texto com o nome da foto
-                    lblfoto.Text = Path.Combine(pastaDestino, nomeArquivo);
+                    lblfoto.Text = Path.Combine("Produto", nomeArquivo);
                     //carregando a foto na picture
                     Foto.Image = Image.FromFile(lblfoto.Text);
                 }
@@ -74,14 +84,15 @@ namespace projeto
             {
                 string datasource = "datasource=localhost;username=root;password='';database=projeto";
                 conn = new MySqlConnection(datasource);
-                string sql = "Insert into produto(nome,descricao,tipo,valor,quantidade,foto) vaslues(" +
+                string sql = "Insert into produto(nome,descricao,tipo,valor,quantidade,foto) values(" +
                     "@nome,@descricao,@tipo,@valor,@quantidade,@foto)";
                 MySqlCommand comando = new MySqlCommand(sql, conn);
                 comando.Parameters.AddWithValue("@nome", txtNome.Text);
                 comando.Parameters.AddWithValue("@descricao", txtDEscricao.Text);
-                comando.Parameters.AddWithValue("@tipo",codigoTipo);
+                comando.Parameters.AddWithValue("@tipo", codigoTipo);
                 comando.Parameters.AddWithValue("@quantidade", Convert.ToInt32(txtQuantidade.Text));
                 comando.Parameters.AddWithValue("@valor", Convert.ToDecimal(txtValor.Text));
+                comando.Parameters.AddWithValue("@foto", lblfoto.Text);
                 conn.Open();
                 //testar se gravou no banco de dados
                 if (Convert.ToInt32(comando.ExecuteNonQuery()) == 1)
@@ -106,11 +117,93 @@ namespace projeto
             cboTipo.DataSource = conexao.obterDados("select codigotipo,descricao from tipo");
             cboTipo.ValueMember = "codigotipo";
             cboTipo.DisplayMember = "descricao";
+            dgvProduto.DataSource = conexao.obterDados("select * from produto");
         }
 
         private void cboTipo_SelectedIndexChanged(object sender, EventArgs e)
         {
             codigoTipo = Convert.ToInt32(((DataRowView)cboTipo.SelectedItem)["codigotipo"]);
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string datasource = "datasource=localhost;username=root;password='';database=projeto";
+                conn = new MySqlConnection(datasource);
+                string sql = "Update produto set nome=@nome,descricao=@descricao,tipo=@tipo,valor=@valor,quantidade=@quantidade,foto=@foto where codigoProduto=@codigo ";
+                MySqlCommand comando = new MySqlCommand(sql, conn);
+                comando.Parameters.AddWithValue("@nome", txtNome.Text);
+                comando.Parameters.AddWithValue("@descricao", txtDEscricao.Text);
+                comando.Parameters.AddWithValue("@tipo", codigoTipo);
+                comando.Parameters.AddWithValue("@quantidade", Convert.ToInt32(txtQuantidade.Text));
+                comando.Parameters.AddWithValue("@valor", Convert.ToDecimal(txtValor.Text));
+                comando.Parameters.AddWithValue("@foto", lblfoto.Text);
+                comando.Parameters.AddWithValue("@codigo", Convert.ToInt32(txtCodigo.Text));
+                conn.Open();
+                //testar se gravou no banco de dados
+                if (Convert.ToInt32(comando.ExecuteNonQuery()) == 1)
+                {
+                    MessageBox.Show("Produto atualizado com sucesso!");
+                }
+                else
+                {
+                    MessageBox.Show("Erro no cadastro!");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro:" + ex.Message);
+            }
+
+        }
+
+        private void dgvProduto_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int codigo = 0;
+            codigo = Convert.ToInt32(dgvProduto.Rows[e.RowIndex].Cells[e.ColumnIndex].Value);
+            txtCodigo.Text = codigo.ToString();
+            txtNome.Text = dgvProduto.Rows[e.RowIndex].Cells["nome"].Value.ToString();
+            txtDEscricao.Text = dgvProduto.Rows[e.RowIndex].Cells["descricao"].Value.ToString();
+            cboTipo.Text = dgvProduto.Rows[e.RowIndex].Cells["tipo"].Value.ToString();
+            txtQuantidade.Text = dgvProduto.Rows[e.RowIndex].Cells["quantidade"].Value.ToString();
+            txtValor.Text = dgvProduto.Rows[e.RowIndex].Cells["valor"].Value.ToString();
+            Foto.Image = Image.FromFile(dgvProduto.Rows[e.RowIndex].Cells["foto"].Value.ToString());
+        }
+
+        private void btnExcluir_Click(object sender, EventArgs e)
+        {
+
+            try
+            {
+                if (!string.IsNullOrEmpty(txtCodigo.Text))
+                {
+                    string datasource = "datasource=localhost;username=root;password='';database=projeto";
+                    conn = new MySqlConnection(datasource);
+                    string sql = "delete from produto where codigoProduto=@codigo ";
+                    MySqlCommand comando = new MySqlCommand(sql, conn);
+                    comando.Parameters.AddWithValue("@codigo", Convert.ToInt32(txtCodigo.Text));
+                    conn.Open();
+                    //testar se gravou no banco de dados
+                    if (Convert.ToInt32(comando.ExecuteNonQuery()) == 1)
+                    {
+                        MessageBox.Show("Produto excluido com sucesso!");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Erro ao excluir!");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Escolher um ID para excluir!");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro:" + ex.Message);
+            }
+
         }
     }
 }
