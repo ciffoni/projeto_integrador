@@ -36,18 +36,18 @@
             label6 = new Label();
             label7 = new Label();
             label8 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            textBox6 = new TextBox();
-            textBox7 = new TextBox();
-            textBox8 = new TextBox();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
+            txtCodigo = new TextBox();
+            txtNome = new TextBox();
+            txtfone = new TextBox();
+            txtEmail = new TextBox();
+            txtcpf = new TextBox();
+            txtCep = new TextBox();
+            txtNcasa = new TextBox();
+            txtComplemento = new TextBox();
+            btnCadastrar = new Button();
+            btnEditar = new Button();
+            btnExcluir = new Button();
+            btnPesquisar = new Button();
             dataGridView1 = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -124,97 +124,98 @@
             label8.TabIndex = 7;
             label8.Text = "complemento:";
             // 
-            // textBox1
+            // txtCodigo
             // 
-            textBox1.Location = new Point(167, 34);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 27);
-            textBox1.TabIndex = 8;
+            txtCodigo.Location = new Point(167, 34);
+            txtCodigo.Name = "txtCodigo";
+            txtCodigo.Size = new Size(125, 27);
+            txtCodigo.TabIndex = 8;
             // 
-            // textBox2
+            // txtNome
             // 
-            textBox2.Location = new Point(167, 77);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(125, 27);
-            textBox2.TabIndex = 9;
+            txtNome.Location = new Point(167, 77);
+            txtNome.Name = "txtNome";
+            txtNome.Size = new Size(125, 27);
+            txtNome.TabIndex = 9;
             // 
-            // textBox3
+            // txtfone
             // 
-            textBox3.Location = new Point(167, 120);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(125, 27);
-            textBox3.TabIndex = 10;
+            txtfone.Location = new Point(167, 120);
+            txtfone.Name = "txtfone";
+            txtfone.Size = new Size(125, 27);
+            txtfone.TabIndex = 10;
             // 
-            // textBox4
+            // txtEmail
             // 
-            textBox4.Location = new Point(167, 166);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(125, 27);
-            textBox4.TabIndex = 11;
+            txtEmail.Location = new Point(167, 166);
+            txtEmail.Name = "txtEmail";
+            txtEmail.Size = new Size(125, 27);
+            txtEmail.TabIndex = 11;
             // 
-            // textBox5
+            // txtcpf
             // 
-            textBox5.Location = new Point(167, 205);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(125, 27);
-            textBox5.TabIndex = 12;
+            txtcpf.Location = new Point(167, 205);
+            txtcpf.Name = "txtcpf";
+            txtcpf.Size = new Size(125, 27);
+            txtcpf.TabIndex = 12;
             // 
-            // textBox6
+            // txtCep
             // 
-            textBox6.Location = new Point(167, 252);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(125, 27);
-            textBox6.TabIndex = 13;
+            txtCep.Location = new Point(167, 252);
+            txtCep.Name = "txtCep";
+            txtCep.Size = new Size(125, 27);
+            txtCep.TabIndex = 13;
             // 
-            // textBox7
+            // txtNcasa
             // 
-            textBox7.Location = new Point(167, 302);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(125, 27);
-            textBox7.TabIndex = 14;
+            txtNcasa.Location = new Point(167, 302);
+            txtNcasa.Name = "txtNcasa";
+            txtNcasa.Size = new Size(125, 27);
+            txtNcasa.TabIndex = 14;
             // 
-            // textBox8
+            // txtComplemento
             // 
-            textBox8.Location = new Point(167, 350);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(125, 27);
-            textBox8.TabIndex = 15;
+            txtComplemento.Location = new Point(167, 350);
+            txtComplemento.Name = "txtComplemento";
+            txtComplemento.Size = new Size(125, 27);
+            txtComplemento.TabIndex = 15;
             // 
-            // button1
+            // btnCadastrar
             // 
-            button1.Location = new Point(59, 408);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 16;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            btnCadastrar.Location = new Point(59, 408);
+            btnCadastrar.Name = "btnCadastrar";
+            btnCadastrar.Size = new Size(94, 29);
+            btnCadastrar.TabIndex = 16;
+            btnCadastrar.Text = "Cadastrar";
+            btnCadastrar.UseVisualStyleBackColor = true;
+            btnCadastrar.Click += btnCadastrar_Click;
             // 
-            // button2
+            // btnEditar
             // 
-            button2.Location = new Point(186, 411);
-            button2.Name = "button2";
-            button2.Size = new Size(94, 29);
-            button2.TabIndex = 17;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            btnEditar.Location = new Point(186, 411);
+            btnEditar.Name = "btnEditar";
+            btnEditar.Size = new Size(94, 29);
+            btnEditar.TabIndex = 17;
+            btnEditar.Text = "Editar";
+            btnEditar.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnExcluir
             // 
-            button3.Location = new Point(59, 456);
-            button3.Name = "button3";
-            button3.Size = new Size(94, 29);
-            button3.TabIndex = 18;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
+            btnExcluir.Location = new Point(59, 456);
+            btnExcluir.Name = "btnExcluir";
+            btnExcluir.Size = new Size(94, 29);
+            btnExcluir.TabIndex = 18;
+            btnExcluir.Text = "Excluir";
+            btnExcluir.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnPesquisar
             // 
-            button4.Location = new Point(183, 456);
-            button4.Name = "button4";
-            button4.Size = new Size(94, 29);
-            button4.TabIndex = 19;
-            button4.Text = "button4";
-            button4.UseVisualStyleBackColor = true;
+            btnPesquisar.Location = new Point(183, 456);
+            btnPesquisar.Name = "btnPesquisar";
+            btnPesquisar.Size = new Size(94, 29);
+            btnPesquisar.TabIndex = 19;
+            btnPesquisar.Text = "Pesquisar";
+            btnPesquisar.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
@@ -231,18 +232,18 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1079, 488);
             Controls.Add(dataGridView1);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(textBox8);
-            Controls.Add(textBox7);
-            Controls.Add(textBox6);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(btnPesquisar);
+            Controls.Add(btnExcluir);
+            Controls.Add(btnEditar);
+            Controls.Add(btnCadastrar);
+            Controls.Add(txtComplemento);
+            Controls.Add(txtNcasa);
+            Controls.Add(txtCep);
+            Controls.Add(txtcpf);
+            Controls.Add(txtEmail);
+            Controls.Add(txtfone);
+            Controls.Add(txtNome);
+            Controls.Add(txtCodigo);
             Controls.Add(label8);
             Controls.Add(label7);
             Controls.Add(label6);
@@ -268,18 +269,18 @@
         private Label label6;
         private Label label7;
         private Label label8;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox7;
-        private TextBox textBox8;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
+        private TextBox txtCodigo;
+        private TextBox txtNome;
+        private TextBox txtfone;
+        private TextBox txtEmail;
+        private TextBox txtcpf;
+        private TextBox txtCep;
+        private TextBox txtNcasa;
+        private TextBox txtComplemento;
+        private Button btnCadastrar;
+        private Button btnEditar;
+        private Button btnExcluir;
+        private Button btnPesquisar;
         private DataGridView dataGridView1;
     }
 }

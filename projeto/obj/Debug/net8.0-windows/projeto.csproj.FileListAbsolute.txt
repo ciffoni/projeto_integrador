@@ -41,3 +41,4 @@ C:\Users\Aluno\Documents\GitHub\projeto_integrador\projeto\obj\Debug\net8.0-wind
 C:\Users\Aluno\Documents\GitHub\projeto_integrador\projeto\obj\Debug\net8.0-windows\projeto.FrmProduto.resources
 C:\Users\Aluno\Documents\GitHub\projeto_integrador\projeto\obj\Debug\net8.0-windows\projeto.FrmListarProduto.resources
 C:\Users\Aluno\Documents\GitHub\projeto_integrador\projeto\obj\Debug\net8.0-windows\projeto.FrmPedido.resources
+C:\Users\Aluno\Documents\GitHub\projeto_integrador\projeto\obj\Debug\net8.0-windows\projeto.FrmCliente.resources

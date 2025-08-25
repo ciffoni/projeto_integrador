@@ -48,9 +48,16 @@ namespace projeto
 
         private void produtoToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            FrmListarProduto produto= new FrmListarProduto();
+            FrmListarProduto produto = new FrmListarProduto();
             produto.MdiParent = this;
             produto.Show();
+        }
+
+        private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCliente cliente = new FrmCliente();
+            cliente.MdiParent = this;
+            cliente.Show();
         }
     }
 }
